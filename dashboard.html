@@ -19,7 +19,7 @@
             display: flex;
             flex-direction: row;
             height: 100vh;
-            background-color: #F4F1E1;
+            background-color: #F2f2f2;
         }
 
         /*main: incluye sidebar + content */
@@ -56,7 +56,7 @@
 
         .sidebar a {
             text-decoration: none;
-            color: #F4F1E1;
+            color: #F2f2f2;
             
         }
 
@@ -76,8 +76,9 @@
         }
 
         .section {
-            padding:6px 0px 
-            
+            padding:6px 0px ;
+            color: #263341;
+
             
         }
 
@@ -89,7 +90,6 @@
 
             text-align: right;
             padding: 5px;
-            background-color: #F4F1E1;
             width: 1300px;
 
         }
@@ -157,17 +157,17 @@
         padding: 10px;
         border: 1px solid #ccc;
         text-align:left;
-        background-color: #6e859d00;
+        color:  #263341;
 
        
         }
 
-        .calificacion img {
-            width: 20px;
+        .calificacion {
+            color: gold;
         }
         
         .categoria{
-         background-color: #3C4A58;
+         background-color: #673911;
          border-radius: 5px;
          width: 80px;
         color: #ffffff;
@@ -213,7 +213,7 @@
         <div class="main">
 
             <div class="sidebar">
-                <img src="./img/logo claro BOOK.png" alt="logo">
+                <img src="./img/logo1 BOOK.png" alt="logo">
                 <ul>
                     <li><a href="#">Mis libros</a></li>
                     <li><a href="#">Libros que he alquilado</a></li>
@@ -252,11 +252,11 @@
                         <div class="Nombrelibro">
                             <h4>Alas de ónix</h4>
                             <div class="calificacion">
-                                <img src="./img/estrella.png" alt="estrella1">
-                                <img src="./img/estrella.png" alt="estrella2">
-                                <img src="./img/estrella.png" alt="estrella3">
-                                <img src="./img/estrella.png" alt="estrella4">
-                                <img src="./img/estrella.png" alt="estrella5">
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-vacia">&#9734;</span>
                             </div>
                             <div class="categoria">Categoría</div>
                             <button class="button"><a href="#">Ver más</a></button>
@@ -264,12 +264,13 @@
                     
                         <div class="Nombrelibro">
                             <h4>Un segundo para amar</h4>
+                            
                             <div class="calificacion">
-                                <img src="./img/estrella.png" alt="estrella1">
-                                <img src="./img/estrella.png" alt="estrella2">
-                                <img src="./img/estrella.png" alt="estrella3">
-                                <img src="./img/estrella.png" alt="estrella4">
-                                <img src="./img/estrella.png" alt="estrella5">
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-vacia">&#9734;</span>
                             </div>
                             <div class="categoria">Categoría</div>
                             <button class="button"><a href="#">Ver más</a></button>
@@ -278,11 +279,11 @@
                         <div class="Nombrelibro">
                             <h4>Gladiadores,bestias y condenados</h4>
                             <div class="calificacion">
-                                <img src="./img/estrella.png" alt="estrella1">
-                                <img src="./img/estrella.png" alt="estrella2">
-                                <img src="./img/estrella.png" alt="estrella3">
-                                <img src="./img/estrella.png" alt="estrella4">
-                                <img src="./img/estrella.png" alt="estrella5">
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-llena">&#9733;</span>
+                                <span class="estrella-vacia">&#9734;</span>
                             </div>
                             <div class="categoria">Categoría</div>
                             <button class="button"><a href="#">Ver más</a></button>
@@ -297,3 +298,7 @@
 
             </div>
         </div>
+
+    </body>
+
+    </html>
